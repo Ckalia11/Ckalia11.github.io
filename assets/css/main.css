@@ -3433,3 +3433,18 @@ input, select, textarea {
 		font-size: 100px;
 		color: #4acaa8;
 	}
+
+	/* work experience */
+
+	.job_title {
+		margin-bottom: 0px;
+	}
+
+	.job_role {
+		color: #4acaa8;
+	}
+
+	.project_title {
+		color: #4acaa8;
+	}
+
