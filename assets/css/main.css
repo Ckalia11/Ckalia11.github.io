@@ -2415,6 +2415,10 @@ input, select, textarea {
 				width: 2.5em;
 			}
 
+			ul.feature-icons li.technical.icon:before {
+				background: blue;
+			}
+
 			
 /* Icons */
 
@@ -2805,6 +2809,7 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
+						/* font-size: 11px; */
 					}
 
 						#header > nav ul li a.active {
