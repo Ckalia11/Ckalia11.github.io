@@ -2849,7 +2849,8 @@ input, select, textarea {
 		border-top: 0;
 		color: #c0c0c0;
 		overflow: hidden;
-		padding: 4em 0 2em 0;
+		padding: 1em 0 2em 0;
+		/* height: 3em; */
 	}
 
 		#footer .copyright {
@@ -2868,7 +2869,7 @@ input, select, textarea {
 
 				#footer .copyright li:first-child {
 					border-left: 0;
-					margin-left: 0;
+					/* margin-left: 0; */
 					padding-left: 0;
 				}
 
