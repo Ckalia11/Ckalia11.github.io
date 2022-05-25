@@ -2809,7 +2809,7 @@ input, select, textarea {
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
-						font-size: 11px;
+						/* font-size: 11px; */
 					}
 
 						#header > nav ul li a.active {
