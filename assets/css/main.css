@@ -3454,3 +3454,28 @@ input, select, textarea {
 		color: #367DC5;
 	}
 
+	.title-with-tags {
+		display: flex;
+		align-items: center;
+	  }
+	  
+	  .project_title {
+		margin-right: 10px; /* Adjust the spacing between the title and tags */
+	  }
+	  
+	  .tags {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 5px; /* Adjust the gap between tags as needed */
+	  }
+	  
+	  .tag {
+		display: inline-block;
+		padding: 3px 8px;
+		background-color: #f0f0f0;
+		border-radius: 4px;
+		font-size: 12px; /* Adjust the font size as needed */
+	  }
+	  
+	  
+
