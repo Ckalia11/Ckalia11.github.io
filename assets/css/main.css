@@ -3462,20 +3462,27 @@ input, select, textarea {
 	  .project_title {
 		margin-right: 10px; /* Adjust the spacing between the title and tags */
 	  }
-	  
-	  .tags {
-		display: flex;
-		flex-wrap: wrap;
-		gap: 5px; /* Adjust the gap between tags as needed */
-	  }
-	  
+	
 	  .tag {
+		background: grey;
+		color: white;
 		display: inline-block;
-		padding: 3px 8px;
-		background-color: #f0f0f0;
-		border-radius: 4px;
-		font-size: 12px; /* Adjust the font size as needed */
+		padding: 5px 10px 5px 25px;
+		border-radius: 90px 30px 30px 90px;
+		position: relative;
+		margin: 0 10px 10px 0;
+		font-family: helvetica;
 	  }
 	  
+	  .tag:after {
+		content: '';
+		width: 8px;
+		height: 8px;
+		background: white;
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		border-radius: 90px;
+	  } 
 	  
 
