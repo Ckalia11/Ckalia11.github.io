@@ -19,18 +19,50 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- ICONS -->
+    <script
+      src="https://kit.fontawesome.com/b294839bbd.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- TAILWIND CSS -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          fontFamily: {
+            sans: ['Roboto', 'sans-serif'],
+            body: ['Roboto', 'sans-serif'],
+            mono: ['ui-monospace', 'monospace'],
+          },
+        },
+        corePlugins: {
+          preflight: false,
+        },
+      };
+    </script>
     <title>Projects</title>
   </head>
   <body class="custom-body">
     <nav class="navbar navbar-expand">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active-link" href="index.html"
+          <a class="nav-link custom-link" href="index.html"
             ><span>About</span></a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link custom-link" href="projects.html">Projects</a>
+          <a class="nav-link custom-link" href="projects.html"
+            ><span>Projects</span></a
+          >
         </li>
         <li class="nav-item">
           <a
@@ -55,40 +87,155 @@
         </li>
       </ul>
     </nav>
-    <div class="projects">
-      <div class="project-card">
-        <h4 class="p-3">glucovery</h4>
-        <p>
-          An 8-month capstone project where I researched and designed a solution
-          to help people with Celiac Disease fulfil their nutrition requirements
-          during recovery from gluten exposure.
-        </p>
-      </div>
-      <div class="project-card">
-        <h4 class="p-3">emvideo</h4>
-        <p>
-          A video sharing platform that enables users to authenticate
-          themselves, browse and search videos, and upload and manage their own
-          content.
-        </p>
-      </div>
-      <div class="project-card">
-        <h4 class="p-3">form template</h4>
-        <p>
-          A secure PHP form with robust validation, error handling, and
-          prevention against common attacks, built with an elegant Bootstrap
-          interface.
-        </p>
-      </div>
-      <div class="project-card">
-        <h4 class="p-3">eventing</h4>
-        <p>
-          An event booking system with a highly flexible GraphQL API, MongoDB
-          data storage, and JWT authentication using Node.js. Built frontend
-          components in React using Material UI, resulting in a cohesive user
-          interface
-        </p>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-header">
+              <a
+                class="custom-link"
+                target="_blank"
+                href="https://github.com/Ckalia11/emvideo"
+              >
+                <h4 class="p-2 m-0">emvideo</h4>
+              </a>
+              <a href="https://github.com/Ckalia11/emvideo" target="_blank"
+                ><i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #367dc5"
+                ></i
+              ></a>
+            </div>
+            <p>
+              A video sharing platform where users can browse and search videos,
+              and upload and manage their own content
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-header">
+              <a
+                class="custom-link"
+                target="_blank"
+                href="https://github.com/Ckalia11/Food-Expiry-Tracker"
+              >
+                <h4 class="p-2 m-0">food tracker</h4>
+              </a>
+              <a
+                href="https://github.com/Ckalia11/Food-Expiry-Tracker"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #367dc5"
+                ></i
+              ></a>
+            </div>
+            <p>
+              A mobile application that tracks the expiry of foods, recommends
+              recipes, and discovers options to donate food
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-header">
+              <a
+                class="custom-link"
+                target="_blank"
+                href="https://github.com/Ckalia11/event-booking-system"
+              >
+                <h4 class="p-2 m-0">eventing</h4>
+              </a>
+              <a
+                href="https://github.com/Ckalia11/event-booking-system"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #367dc5"
+                ></i
+              ></a>
+            </div>
+            <p>
+              A web application that allows users to create and book events
+              easily
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-header">
+              <a
+                class="custom-link"
+                target="_blank"
+                href="https://github.com/mattruegg/glucovery"
+              >
+                <h4 class="p-2 m-0">glucovery</h4>
+              </a>
+              <a href="https://github.com/mattruegg/glucovery" target="_blank"
+                ><i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #367dc5"
+                ></i
+              ></a>
+            </div>
+            <p>
+              A web application that aims to prevent nutrient deficiencies in
+              people with Celiac disease after gluten ingestion
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-header">
+              <a
+                class="custom-link"
+                target="_blank"
+                href="https://github.com/Ckalia11/Form-Template"
+              >
+                <h4 class="p-2 m-0">template form</h4>
+              </a>
+              <a
+                href="https://github.com/Ckalia11/Form-Template"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #367dc5"
+                ></i
+              ></a>
+            </div>
+            <p>A highly modular form that can be used for various purposes</p>
+          </div>
+        </div>
+        <!-- <div class="col-md-4">
+          <div class="project-card">
+            <div class="project-header">
+              <a
+                class="custom-link"
+                target="_blank"
+                href="https://github.com/Ckalia11/Predict-Amazon-Ratings"
+              >
+                <h4 class="p-2 m-0">Predict Ratings</h4>
+              </a>
+              <a
+                href="https://github.com/Ckalia11/Predict-Amazon-Ratings"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-github fa-bounce"
+                  style="color: #367dc5"
+                ></i
+              ></a>
+            </div>
+            <p>
+              A model that can be used to predict ratings that Amazon's
+              customers would give to electronic products based on previous
+              written reviews.
+            </p>
+          </div>
+        </div> -->
       </div>
     </div>
+    <!-- JS FILE -->
+    <script src="index.js"></script>
   </body>
 </html>
