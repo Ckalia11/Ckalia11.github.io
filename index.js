@@ -8,8 +8,8 @@ navLinks.forEach((link) => {
   }
 });
 
-if (currentPageUrl.endsWith('/index.html')) {
-  const aboutLink = document.querySelector('nav ul li a[href="index.html"]');
+if (currentPageUrl.endsWith('')) {
+  const aboutLink = document.querySelector('nav ul li a[href=""]');
   if (aboutLink) {
     aboutLink.classList.add('active-link');
   }
